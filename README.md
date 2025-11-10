@@ -1,12 +1,12 @@
 # Karthikeya-7-Venkata-OBJECT-DETECTION-WITH-ATTENTION-MECHANISM-AND-EXPLAINABILITY
 Real-time object detection with YOLOv7 and Grad-CAM explainability, providing class-wise counts, performance metrics, and attention heatmaps for enhanced model interpretability.
-📁 Files Included
+**📁 Files Included**
 
-YOLOv7 weights/config/labels: Pre-trained model files (yolov7.weights, yolov7.cfg, coco.names)
+**YOLOv7 weights/config/labels:** Pre-trained model files (yolov7.weights, yolov7.cfg, coco.names)
 
-Video file: Example input video (cycling.mp4)
+**Video file:** Example input video (cycling.mp4)
 
-Python scripts:
+**Python scripts:**
 
 yolov7_video_detection.py — YOLOv7 video object detection
 
@@ -16,7 +16,7 @@ metrics.py — Performance evaluation (precision, recall, F1-score, mAP)
 
 visualization.py — Plots class-wise detection counts and Grad-CAM heatmaps
 
-📊 Key Features
+**📊 Key Features**
 
 Real-time object detection on videos using YOLOv7
 
@@ -30,32 +30,33 @@ Frame-wise and combined average heatmaps
 
 Supports GPU acceleration with CUDA if available
 
-🚀 How to Run
+**🚀 How to Run**
 
-Clone the repository:
+**Clone the repository:**
+
 
 git clone <repo-link>
 cd <repo-folder>
 
 
-Install required Python packages:
+**Install required Python packages:**
 
 pip install opencv-python-headless numpy torch torchvision matplotlib
 
 
-Run YOLOv7 video detection:
+**Run YOLOv7 video detection:**
 
 python yolov7_video_detection.py
 
 
-Run Grad-CAM visualization:
+**Run Grad-CAM visualization:**
 
 python grad_cam_video.py
 
 
-⚠️ Note: Change the video_path variable in the scripts to your input video file.
+**⚠️ Note: Change the video_path variable in the scripts to your input video file.**
 
-🛠 Requirements
+**🛠 Requirements**
 
 Python 3.8+
 
@@ -67,9 +68,9 @@ torchvision
 
 Matplotlib
 
-Optional: CUDA-enabled GPU for faster inference
+**Optional: CUDA-enabled GPU for faster inference**
 
-📊 Results & Observations
+**📊 Results & Observations**
 
 YOLOv7 accurately detects objects in video frames with confidence scores.
 
@@ -79,7 +80,7 @@ Class-wise detection plots show the frequency of detected object classes.
 
 Performance metrics (precision, recall, F1-score, mAP) provide quantitative evaluation.
 
-✅ Conclusion
+**✅ Conclusion**
 
 YOLOv7 provides high-accuracy object detection.
 
@@ -87,7 +88,7 @@ Grad-CAM adds explainability, allowing insight into model attention.
 
 Combining detection and explainability enhances model transparency and interpretability.
 
-🔮 Future Work
+**🔮 Future Work**
 
 Support multiple videos or live camera feeds.
 
