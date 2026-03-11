@@ -31,79 +31,36 @@ Real-time object detection with **YOLOv7** and **Grad-CAM explainability**, prov
 
 ---
 
-## 🛠 How to Run
+## 🛠 Requirements
 
-### 1️⃣ Clone the repository
-```bash
-git clone <repo-link>
-cd <repo-folder>
+- Python 3.8+  
+- OpenCV  
+- PyTorch & torchvision  
+- Matplotlib  
+- Optional: CUDA-enabled GPU for faster inference  
 
+---
 
+## 📊 Results & Observations
 
-**🚀 How to Run**
+- ✅ YOLOv7 accurately detects objects in video frames with confidence scores  
+- 🔥 Grad-CAM highlights the regions contributing to model predictions  
+- 📊 Class-wise detection plots show frequency of detected object classes  
+- 📈 Performance metrics (precision, recall, F1-score, mAP) provide quantitative evaluation  
 
-**Clone the repository:**
+---
 
+## ✅ Conclusion
 
-git clone <repo-link>
-cd <repo-folder>
+- YOLOv7 provides high-accuracy object detection  
+- Grad-CAM adds explainability, showing model attention  
+- Combining detection and explainability enhances transparency and interpretability  
 
+---
 
-**Install required Python packages:**
+## 🔮 Future Work
 
-pip install opencv-python-headless numpy torch torchvision matplotlib
-
-
-**Run YOLOv7 video detection:**
-
-python yolov7_video_detection.py
-
-
-**Run Grad-CAM visualization:**
-
-python grad_cam_video.py
-
-
-**⚠️ Note: Change the video_path variable in the scripts to your input video file.**
-
-**🛠 Requirements**
-
-Python 3.8+
-
-OpenCV
-
-PyTorch
-
-torchvision
-
-Matplotlib
-
-**Optional: CUDA-enabled GPU for faster inference**
-
-**📊 Results & Observations**
-
-YOLOv7 accurately detects objects in video frames with confidence scores.
-
-Grad-CAM highlights the regions contributing to model predictions.
-
-Class-wise detection plots show the frequency of detected object classes.
-
-Performance metrics (precision, recall, F1-score, mAP) provide quantitative evaluation.
-
-**✅ Conclusion**
-
-YOLOv7 provides high-accuracy object detection.
-
-Grad-CAM adds explainability, allowing insight into model attention.
-
-Combining detection and explainability enhances model transparency and interpretability.
-
-**🔮 Future Work**
-
-Support multiple videos or live camera feeds.
-
-Integrate additional attention mechanisms or transformers for detection.
-
-Develop a web-based dashboard for real-time monitoring and Grad-CAM visualization.
-
-Improve performance metrics using larger datasets and object tracking.
+- 🎥 Support multiple videos or live camera feeds  
+- 🤖 Integrate additional attention mechanisms or transformers for detection  
+- 🌐 Develop a web-based dashboard for real-time monitoring and Grad-CAM visualization  
+- ⚡ Improve performance metrics using larger datasets and object tracking  
