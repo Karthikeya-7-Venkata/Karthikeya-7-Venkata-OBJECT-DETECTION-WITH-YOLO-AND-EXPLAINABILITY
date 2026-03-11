@@ -1,34 +1,44 @@
-# Karthikeya-7-Venkata-OBJECT-DETECTION-WITH-YOLO-AND-EXPLAINABILITY
-Real-time object detection with YOLOv7 and Grad-CAM explainability, providing class-wise counts, performance metrics, and attention heatmaps for enhanced model interpretability.
-**📁 Files Included**
+# 🕵️‍♂️ Karthikeya-7-Venkata — OBJECT DETECTION WITH YOLOv7 & EXPLAINABILITY
 
-**YOLOv7 weights/config/labels:** Pre-trained model files (yolov7.weights, yolov7.cfg, coco.names)
+Real-time object detection with **YOLOv7** and **Grad-CAM explainability**, providing **class-wise counts**, **performance metrics**, and **attention heatmaps** for enhanced model interpretability.
 
-**Video file:** Example input video (cycling.mp4)
+---
 
-**Python scripts:**
+## 📁 Files Included
 
-yolov7_video_detection.py — YOLOv7 video object detection
+**YOLOv7 weights/config/labels:**  
+- Pre-trained model files: `yolov7.weights`, `yolov7.cfg`, `coco.names`
 
-grad_cam_video.py — Grad-CAM visualization for attention/explainability
+**Video file:**  
+- Example input video: `cycling.mp4`
 
-metrics.py — Performance evaluation (precision, recall, F1-score, mAP)
+**Python scripts:**  
+- `yolov7_video_detection.py` — YOLOv7 video object detection  
+- `grad_cam_video.py` — Grad-CAM visualization for attention/explainability  
+- `metrics.py` — Performance evaluation (precision, recall, F1-score, mAP)  
+- `visualization.py` — Plots class-wise detection counts and Grad-CAM heatmaps  
 
-visualization.py — Plots class-wise detection counts and Grad-CAM heatmaps
+---
 
-**📊 Key Features**
+## 📊 Key Features
 
-Real-time object detection on videos using YOLOv7
+- 🚀 Real-time object detection on videos using YOLOv7  
+- 📈 Class-wise detection counts visualization  
+- 📌 Precision, Recall, F1-score, and mAP metrics calculation  
+- 🔥 Grad-CAM for explainable AI: visualizes areas of attention in video frames  
+- 🖼 Frame-wise and combined average heatmaps  
+- ⚡ Supports GPU acceleration with CUDA if available  
 
-Class-wise detection counts visualization
+---
 
-Precision, Recall, F1-score, and mAP metrics calculation
+## 🛠 How to Run
 
-Grad-CAM for explainable AI: visualizes areas of attention in video frames
+### 1️⃣ Clone the repository
+```bash
+git clone <repo-link>
+cd <repo-folder>
 
-Frame-wise and combined average heatmaps
 
-Supports GPU acceleration with CUDA if available
 
 **🚀 How to Run**
 
